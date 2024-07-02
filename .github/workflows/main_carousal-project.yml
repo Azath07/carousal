@@ -24,8 +24,6 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install
-          npm install react-responsive-carousel
-          npm install @mui/material @emotion/react @emotion/styled
           npm run build --if-present
           npm run test --if-present
       
